@@ -19,7 +19,7 @@ public class OrderControllerV2 {
 
     @GetMapping("/v2/request")
     public String request(String itemId) {
-        orderService.OrderItem(itemId);
+        orderService.orderItem(itemId);
         return "ok";
     }
 
